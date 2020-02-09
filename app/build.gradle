@@ -60,7 +60,7 @@ dependencies {
     implementation deps.retrofit.adapterrxjava2
 
     // Gson
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation deps.google.gson
 
     // Lifecycle
     kapt deps.lifecycle.compiler
@@ -86,8 +86,5 @@ dependencies {
     //glide
     implementation deps.github.glide
     annotationProcessor deps.github.glidecompailer
-
-    androidTestImplementation 'androidx.test:core:1.1.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
 
 }
